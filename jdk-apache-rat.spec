@@ -11,7 +11,7 @@ Source5  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-core/0.12/apa
 Source6  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-plugin/0.12/apache-rat-plugin-0.12.jar
 Source7  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-plugin/0.12/apache-rat-plugin-0.12.pom
 Source8  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-tasks/0.12/apache-rat-tasks-0.12.jar
-Source9  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-tasks/0.12/apache-rat-tasks-0.12.pom
+Source9  : http://repo2.maven.org/maven2/org/apache/rat/apache-rat-tasks/0.12/apache-rat-tasks-0.12.pom
 Source10  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-project/0.12/apache-rat-project-0.12.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
