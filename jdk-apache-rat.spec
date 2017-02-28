@@ -11,7 +11,7 @@ Source5  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-core/0.12/apa
 Source6  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-plugin/0.12/apache-rat-plugin-0.12.jar
 Source7  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-plugin/0.12/apache-rat-plugin-0.12.pom
 #Source8  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-tasks/0.12/apache-rat-tasks-0.12.jar
-#Source9  : http://repo2.maven.org/maven2/org/apache/rat/apache-rat-tasks/0.12/apache-rat-tasks-0.12.pom
+Source9  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-tasks/0.12/apache-rat-tasks-0.12.pom
 Source10  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat-project/0.12/apache-rat-project-0.12.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
@@ -53,7 +53,7 @@ mv %{SOURCE6} %{buildroot}/usr/share/java/apache-rat/apache-rat-plugin.jar
 mv %{SOURCE7} %{buildroot}/usr/share/maven-poms/apache-rat/apache-rat-plugin.pom
 
 #mv %{SOURCE8} %{buildroot}/usr/share/java/apache-rat/apache-rat-tasks.jar
-#mv %{SOURCE9} %{buildroot}/usr/share/maven-poms/apache-rat/apache-rat-tasks.pom
+mv %{SOURCE9} %{buildroot}/usr/share/maven-poms/apache-rat/apache-rat-tasks.pom
 
 mv %{SOURCE10} %{buildroot}/usr/share/maven-poms/apache-rat/apache-rat-project.pom
 
