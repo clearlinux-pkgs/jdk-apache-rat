@@ -81,30 +81,24 @@ do
     %{buildroot}/usr/share/java/apache-rat/$a.jar
 done
 
+rm  %{buildroot}/usr/share/maven-poms/apache-rat/*.tmp
+rm  %{buildroot}/usr/share/maven-poms/apache-rat/*.orig
+
 %files
 %defattr(-,root,root,-)
 /usr/share/java/apache-rat/apache-rat-api.jar
 /usr/share/java/apache-rat/apache-rat-core.jar
 /usr/share/java/apache-rat/apache-rat-plugin.jar
-/usr/share/java/apache-rat/apache-rat-tasks.jar
+#/usr/share/java/apache-rat/apache-rat-tasks.jar
 /usr/share/java/apache-rat/apache-rat.jar
 /usr/share/maven-metadata/apache-rat-apache-rat-api.xml
 /usr/share/maven-metadata/apache-rat-apache-rat-core.xml
 /usr/share/maven-metadata/apache-rat-apache-rat-plugin.xml
 /usr/share/maven-metadata/apache-rat-apache-rat-project.xml
-/usr/share/maven-metadata/apache-rat-apache-rat-tasks.xml
+#/usr/share/maven-metadata/apache-rat-apache-rat-tasks.xml
 /usr/share/maven-metadata/apache-rat-apache-rat.xml
 /usr/share/maven-poms/apache-rat/apache-rat-api.pom
-/usr/share/maven-poms/apache-rat/apache-rat-api.pom.tmp
 /usr/share/maven-poms/apache-rat/apache-rat-core.pom
-/usr/share/maven-poms/apache-rat/apache-rat-core.pom.tmp
 /usr/share/maven-poms/apache-rat/apache-rat-plugin.pom
-/usr/share/maven-poms/apache-rat/apache-rat-plugin.pom.tmp
 /usr/share/maven-poms/apache-rat/apache-rat-project.pom
-/usr/share/maven-poms/apache-rat/apache-rat-project.pom.orig
-/usr/share/maven-poms/apache-rat/apache-rat-project.pom.tmp
-/usr/share/maven-poms/apache-rat/apache-rat-tasks.pom
-/usr/share/maven-poms/apache-rat/apache-rat-tasks.pom.orig
-/usr/share/maven-poms/apache-rat/apache-rat-tasks.pom.tmp
 /usr/share/maven-poms/apache-rat/apache-rat.pom
-/usr/share/maven-poms/apache-rat/apache-rat.pom.tmp
