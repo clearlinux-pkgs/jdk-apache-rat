@@ -1,6 +1,6 @@
 Name     : jdk-apache-rat
 Version  : 0.12
-Release  : 1
+Release  : 2
 URL      : http://www.apache.org/dist/creadur/apache-rat-0.12/apache-rat-0.12-src.tar.bz2
 Source0  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat/0.12/apache-rat-0.12.jar
 Source1  : http://repo1.maven.org/maven2/org/apache/rat/apache-rat/0.12/apache-rat-0.12.pom
